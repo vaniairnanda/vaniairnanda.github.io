@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("/home/vaniairnanda/Documents/website portfolio/backgroundweb.png");
+    background-image: url("/home/vaniairnanda/Documents/vaniairnanda.github.io/website_portfolio/backgroundweb.png");
 }
 
 header {
@@ -43,7 +43,7 @@ main {
     min-height: 500px;
     display: inline-block;
     text-align: center;
-    background-image: url("/home/vaniairnanda/Documents/website portfolio/backgroundarticle.png");
+    background-image: url("/home/vaniairnanda/Documents/vaniairnanda.github.io/website_portfolio/backgroundarticle.png");
     text-decoration: none;
 }
 

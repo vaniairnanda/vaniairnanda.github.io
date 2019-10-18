@@ -71,6 +71,10 @@ h1 {
     text-transform: uppercase;
 }
 
+#message {
+    max-width: 50px;
+}
+
 footer {
     margin: 0 auto;
     font-size: 10px;

@@ -92,11 +92,16 @@ h2, p {
     font-family: Arial, Helvetica, sans-serif;
     color: #333333;
 }
+#aboutmedirect {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
 
 footer {
     margin: 0 auto;
     color: #333333;
-    font-size: 12px;
+    font-size: 10px;
     width: 100%;
 }
 

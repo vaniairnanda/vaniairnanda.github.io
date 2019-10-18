@@ -50,7 +50,7 @@ a:hover {
 
 main {
     width: 800px;
-    min-height: 500px;
+    min-height: 600px;
     text-align: center;
     background-image: url("backgroundarticle.png");
     margin: 200px auto;
@@ -58,7 +58,6 @@ main {
     text-align: center;
     text-decoration: none;
     max-width: 100%;
-    height: auto;
 }
 
 h1, p, footer {

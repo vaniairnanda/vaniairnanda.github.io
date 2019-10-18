@@ -41,7 +41,7 @@ main {
     width: 800px;
     margin: 100px 300px;
     min-height: 500px;
-    display: inline-block;
+    display: block;
     text-align: center;
     background-image: url("backgroundarticle.png");
     text-decoration: none;

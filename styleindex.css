@@ -1,7 +1,20 @@
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #welcomebanner { width:67%; }
+    #social { width:30%; margin-left:3%;}  
+}
+/* Tablet Portrait */
+@media screen and (max-width: 768px) {
+    #welcomebanner { width:100%; }
+    #social { width:100%; margin:0; border:none; }
+}
 body {
     margin: 0;
     padding: 0;
     background-image: url("backgroundweb.png");
+    max-width: 100%;
+    height: auto;
 }
 
 header {
@@ -45,6 +58,8 @@ main {
     text-align: center;
     background-image: url("backgroundarticle.png");
     text-decoration: none;
+    max-width: 100%;
+    height: auto;
 }
 
 h1, p {

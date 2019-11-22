@@ -99,4 +99,4 @@
   
  
     submitButton.addEventListener("click", showResults);
-  })
+  })()

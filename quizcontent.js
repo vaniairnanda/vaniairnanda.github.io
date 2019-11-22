@@ -63,7 +63,7 @@
   
     const quizContainer = document.getElementById("quiz");
     const resultsContainer = document.getElementById("results");
-    let submit = document.getElementById("submit");
+    const submitButton = document.getElementById("submit");
     const myQuestions = [
         {
           question: "Do you give your cat some milk?",
@@ -98,5 +98,5 @@
     buildQuiz();
   
  
-    submit.addEventListener("click", showResults);
+    submitButton.addEventListener("click", showResults);
   })

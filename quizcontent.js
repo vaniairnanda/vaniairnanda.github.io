@@ -44,27 +44,26 @@
         const selector = `input[name=question${questionNumber}]:checked`;
         const userAnswer = (answerContainer.querySelector(selector) || {}).value;
   
-        // if answer is correct
+     
         if (userAnswer == currentQuestion.correctAnswer) {
-          // add to the number of correct answers
+      
           numCorrect++;
   
-          // color the answers green
+         
           answerContainers[questionNumber].style.color = "lightgreen";
         } else {
-          // if answer is wrong or blank
-          // color the answers red
+         
           answerContainers[questionNumber].style.color = "red";
         }
       });
   
-      // show number of correct answers out of total
+
       resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
     }
   
     const quizContainer = document.getElementById("quiz");
     const resultsContainer = document.getElementById("results");
-    const submitButton = document.getElementById("submit");
+    let submit = document.getElementById("submit");
     const myQuestions = [
         {
           question: "Do you give your cat some milk?",
@@ -95,9 +94,9 @@
         }
       ];
   
-    // display quiz right away
+    
     buildQuiz();
   
-    // on submit, show results
-    submitButton.addEventListener("click", showResults);
-  })();
+ 
+    submit.addEventListener("click", showResults);
+  })

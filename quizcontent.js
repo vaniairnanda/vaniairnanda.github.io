@@ -73,7 +73,7 @@
             b: "Never",
             c: "Everyday",
           },
-          correctAnswer: "a",
+          correctAnswer: "b",
         },
         {
           question: "How often do you play with your cat?",

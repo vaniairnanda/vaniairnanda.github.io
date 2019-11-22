@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Build-a-cat</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Build-a-cat</h1>
+    <main>
+    <div id="quiz">
+    <form>
+            Hi Cathooman! Let us know your name:<br>
+            <input type="text" id="name" name="firstname"><br>
+    </form> 
+    <ul>
+    <li>
+      <h3>Pick a color</h3>
+      <input type="radio" name="question1" value="Orange">Orange<br>
+      <input type="radio" name="question1" value="Grey">Grey<br>
+      <input type="radio" name="question1" value="White">White<br>
+      </li>   
+      <li>
+        <h3>Pick fatness</h3>
+        <input type="radio" name="question2" value="Chonky">Chonky<br>
+        <input type="radio" name="question2" value="Smol">Smol<br>
+        </li> 
+      </ul>  
+      <button id="submit" onclick="getFormData()">View Results</button>  
+      </div>
+      </main>     
+    <div id="results"></div>
+    <script src="quizfile.js"></script>
+  </body>
+</html>

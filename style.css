@@ -1,0 +1,55 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("nekoall.gif");
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    margin-top: 50px;
+    background-image: url("download.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#submit{
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#submit:hover{
+    background-color: #38a;
+    text-align: center;
+}
+main {
+    background-image: url("download.png");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    margin: 100px auto;
+    background-position: center;
+    font-size: 20px;
+    
+}
+
+.quiz {
+    width: 800px;
+    min-height: 600px;
+    text-align: center;
+    margin: 200px auto;
+    display: block;
+    font-size: 20px;
+    max-width: 100%;
+    text-decoration-color: aqua;
+}

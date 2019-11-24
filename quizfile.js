@@ -4,7 +4,6 @@ const submitButton = document.getElementById('submit');
 
 function getFormData(){ 
     var name=document.getElementById('name').value;
-
     return name
     }
 
@@ -30,37 +29,43 @@ if (result[0] === 'Orange' && result[1] === 'Chonky') {
   image.setAttribute('src','chonkorange.jpg');
   document.body.appendChild(image);
   alert(`Hi, ${getFormData()} Your cat is ready. Scroll down & pick it up below, meow!`)
-  resultsContainer.innerHTML = `Hi, ${getFormData()} Here is your cat ${image}`
+  resultsContainer.innerHTML = ''
+  result.Container.appendChild(image)
 } else if (result[0] === 'Orange' && result[1] === 'Smol') {
   var image = document.createElement('img');
   image.setAttribute('src','Munchkin-Cat.jpg');
   document.body.appendChild(image);
   alert(`Hi, ${getFormData()} Your cat is ready. Scroll down & pick it up below, meow!`)
-  resultsContainer.innerHTML = `Hi, ${getFormData()} Your cat is ready ${image}`
+  resultsContainer.innerHTML = ''
+  result.Container.appendChild(image)
 } else if (result[0] === 'Grey' && result[1] === 'Chonky') {
   var image = document.createElement('img');
   image.setAttribute('src','chonkygrey.jpeg');
   document.body.appendChild(image);
   alert(`Hi, ${getFormData()} Your cat is ready. Scroll down & pick it up below, meow!`)
-  resultsContainer.innerHTML = `Hi, ${getFormData()} Your cat is ready ${image}`
+  resultsContainer.innerHTML = ''
+  result.Container.appendChild(image)
 } else if (result[0] === 'Grey' && result[1] === 'Smol') {
   var image = document.createElement('img');
   image.setAttribute('src','smolgrey.jpg');
   document.body.appendChild(image);
   alert(`Hi, ${getFormData()} Your cat is ready. Scroll down & pick it up below, meow!`)
-  resultsContainer.innerHTML = `Hi, ${getFormData()} Your cat is ready ${image}`
+  resultsContainer.innerHTML = ''
+  result.Container.appendChild(image)
 } else if (result[0] === 'White' && result[1] === 'Smol') {
   var image = document.createElement('img');
   image.setAttribute('src','smolwhite.jpg');
   document.body.appendChild(image);
   alert(`Hi, ${getFormData()} Your cat is ready. Scroll down & pick it up below, meow!`)
-  resultsContainer.innerHTML = `Hi, ${getFormData()} Your cat is ready ${image}`
+  resultsContainer.innerHTML = ''
+  result.Container.appendChild(image)
 }  else if (result[0] === 'White' && result[1] === 'Chonky') {
   var image = document.createElement('img');
   image.setAttribute('src','chonkywhite.jpg');
   document.body.appendChild(image);
   alert(`Hi, ${getFormData()} Your cat is ready. Scroll down & pick it up below, meow!`)
-  resultsContainer.innerHTML = `Hi, ${getFormData()} Your cat is ready ${image}`
+  resultsContainer.innerHTML = ''
+  result.Container.appendChild(image)
 }
 }
 
